@@ -1,0 +1,39 @@
+{"type": "record", "name": "close_price", "fields": [{ 				  "name": "vendor_id",
+                                                     				  "type": "int",
+                                                     				  "dataClass": "numerical",
+                                                     				  "role": "identifier",
+                                                     				  "protectedClass": false,
+                                                     				  "driftCandidate": false,
+                                                     				  "specialValues": [],
+                                                     				  "scoringOptional": false
+                                                     				},
+                                                     				{
+                                                     				  "name": "pickup_location_id",
+                                                     				  "type": "int",
+                                                     				  "dataClass": "numerical",
+                                                     				  "role": "predictor",
+                                                     				  "protectedClass": true,
+                                                     				  "driftCandidate": false,
+                                                     				  "specialValues": [],
+                                                     				  "scoringOptional": false
+                                                     				},
+                                                     				{
+                                                     				  "name": "dropoff_location_id",
+                                                     				  "type": "int",
+                                                     				  "dataClass": "numerical",
+                                                     				  "role": "predictor",
+                                                     				  "protectedClass": true,
+                                                     				  "driftCandidate": false,
+                                                     				  "specialValues": [],
+                                                     				  "scoringOptional": false
+                                                     				},
+                                                     				{
+                                                     				  "name": "tip_amount",
+                                                     				  "type": "double",
+                                                     				  "dataClass": "numerical",
+                                                     				  "role": "label",
+                                                     				  "protectedClass": false,
+                                                     				  "driftCandidate": false,
+                                                     				  "specialValues": [],
+                                                     				  "scoringOptional": false
+                                                     				}                                                     				]}

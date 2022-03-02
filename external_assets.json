@@ -1,0 +1,26 @@
+[
+  {
+    "name": "df_baseline.json",
+    "assetType": "EXTERNAL_FILE",
+    "assetRole": "BASELINE_DATA",
+    "metaData": {
+      "custom": {},
+      "tags": []
+    },
+    "repositoryInfo": {
+      "repositoryType": "S3_REPOSITORY",
+      "secure": false,
+      "host": "modelop",
+      "port": 9000,
+      "region": "default-region"
+    },
+    "contentHash": {
+      "hashType": "SHA-256",
+      "hexString": "39a703df9bb00fdec2150133ed20ecbc982fdae49f114e59d321e0ff9b998b0c"
+    },
+    "fileUrl": "http://modelop:9000/modelop/0ceef944-c201-45e9-a68b-ee542fab97a4/b9ac58bc-0cbf-42d7-87ed-bbed7af51685.json",
+    "filename": "df_baseline.json",
+    "fileFormat": "JSON",
+    "fileSize": 375414
+  }
+]

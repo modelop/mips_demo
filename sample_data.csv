@@ -1,3 +1,4 @@
+vendor_id,pickup_datetime,dropoff_datetime,passenger_count,trip_distance,rate_code_id,store_and_fwd_flag,pickup_location_id,dropoff_location_id,payment_type,fare_amount,extra,mta_tax,tip_amount,tolls_amount,improvement_surcharge,total_amount
 2,2019-01-27 20:44:28,2019-01-27 20:58:25,6,4.86,1,N,162,45,1,16.5,0.5,0.5,2.0,0.0,0.3,19.8
 2,2019-01-10 08:56:45,2019-01-10 09:02:31,6,0.9,1,N,234,249,1,5.5,0.0,0.5,1.26,0.0,0.3,7.56
 2,2019-01-12 08:02:52,2019-01-12 08:15:25,6,1.97,1,N,239,236,1,10.5,0.0,0.5,1.0,0.0,0.3,12.3
